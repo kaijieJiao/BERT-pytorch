@@ -18,3 +18,6 @@ class BERTDataset(Dataset):
             'labels': torch.tensor(self.data[index]['labels'])
         }
         return bert_input
+    
+
+# nnnn
